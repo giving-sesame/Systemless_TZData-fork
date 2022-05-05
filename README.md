@@ -6,7 +6,8 @@ Time zone data format is different for Android 9- and Android 10+. The module ta
 
 This is the fork of original Systemless_TZData module, as the authors seems to abandon its updating in early 2021.
 
- 
+&nbsp;
+
 **Changelog**
 
 2.0
@@ -16,6 +17,7 @@ This is the fork of original Systemless_TZData module, as the authors seems to a
 1.0
 - initial fork with TZData 2021A
 
+&nbsp;
  
 **Requirements**
 
