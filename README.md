@@ -1,73 +1,22 @@
-# Systemless TZData
+**Description**
 
-Update your ROM's TZdata systemlessly. This will fix DST (daylight savings time) in many countries. There is no XDA support thread for this one due to the module's simplicity, and I will release an update when I see that there is an available TZData update.
+This Magisk module updates your ROM's time zone data, including daylight saving time (DST) start and end dates, systemlessly. The source of time zone data is https://android.googlesource.com/platform/system/timezone
+
+Time zone data format is different for Android 9- and Android 10+. The module takes it into account and installs correct data depending on the version of your ROM.
+
+This is the fork of original Systemless_TZData module, as the authors seems to abandon its updating in early 2021.
 
 
+**Changelog**
 
-### Changelog:
+2.0
+- TZData updated to 2022A
+- added distribution of file tzlookup.xml
 
-#### V16
+1.0
+- initial fork with TZData 2021A
 
->Added logic to work with both Android 9 and older versions - and Android 10 and newer ones.
 
-#### V15
+**Requirements**
 
->Updated to TZData 2020F (ONLY WORK ON ANDROID 10 AND ABOVE)
-
-#### V13
-
->Updated to TZData 2020A
-
-#### V12
-
->Updated to TZData 2019C
-
-#### V11
-
->Updated to TZData 2019B
-
-#### V10
-
->Updated to TZData 2019A
-
->Cleaned up changelog
-
-#### v9
-
->Updated to MagiskInstaller template
-
-#### v8
-
->Updated to TZData 2018G
-
-#### v7
-
->Updated to TZData 2018F
-
-#### v6
-
->Updated to Template 1500
-
-#### v5
-
->Updated to TZData 2017C
-
-#### v4
-
->Updated to Template 1410
-
->Please update to Magisk 14.1 or hold back. The TZData has not updated just the templte so you're not losing out by holding back
-
-#### v3
-
->Updated to Template 1400
-
->Please update to Magisk 14.0 if you have not already
-
-#### v2
-
->Updated to template 4
-
-#### v1
-
->Updated to TZData 2017B
+None
